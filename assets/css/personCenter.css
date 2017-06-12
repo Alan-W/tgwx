@@ -1,0 +1,559 @@
+/* challengeList.html---挑战列表样式代码 */
+.challengeList-wrap .challengeLists ul li{
+	margin:0 auto;
+	margin-top: 0.2rem;
+	width: 90%;
+	height: 1.6rem;
+	padding: 0.1rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+  	-webkit-border-radius: 0.08rem;
+	font-size: 0.25rem;
+}
+.challengeList-wrap .challengeLists ul li div{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.challengeList-wrap .challengeLists ul li .listLeft{
+	width: 30%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	text-align: center;
+	max-width: 100%;
+    max-height: 100%;
+}
+.challengeList-wrap .challengeLists ul li .listLeft img{
+	vertical-align: middle;
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+  	-webkit-border-radius: 0.08rem;
+	max-width: 100%;
+    max-height: 100%;
+}
+.challengeList-wrap .challengeLists ul li .listCenter{
+	width: 50%;
+	height: 1.6rem;
+}
+.challengeList-wrap .challengeLists ul li .listCenter h5{
+	font-size: 0.25rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-indent: 0.1rem;
+}
+.challengeList-wrap .challengeLists ul li .listCenter p{
+	font-size: 0.25rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-indent: 0.1rem;
+}
+.challengeList-wrap .challengeLists ul li .listCenter p:nth-child(2){
+	color: #666666;
+	font-size: 0.2rem;
+}
+.challengeList-wrap .challengeLists ul li .listCenter p:nth-child(3){
+	color: #666666;
+	font-weight: 500;
+}
+.challengeList-wrap .challengeLists ul li .listCenter p:nth-child(4){
+	color: #00B7EE;
+}
+.challengeList-wrap .challengeLists ul li .listRight{
+	width: 20%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+}
+.challengeList-wrap .challengeLists ul li .listRight span{
+	display: inline-block;
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+  	-webkit-border-radius: 0.08rem;
+  	color: #fff;
+  	background: -webkit-linear-gradient(left, #6093FF , #8C89FF); 
+    background: -o-linear-gradient(right, #6093FF, #8C89FF); 
+    background: -moz-linear-gradient(right, #6093FF, #8C89FF); 
+    background: linear-gradient(to right, #6093FF , #8C89FF);
+
+}
+/* 消息列表样式代码 */
+.msg-wrap{
+	width: 100%;
+}
+.msg-wrap ul{
+	width: 100%;
+}
+.msg-wrap ul li{
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 1.8rem;
+	background-color:#fff;
+}
+.msg-wrap ul li .msgContainer{
+	position: relative;
+	width: 100%;
+}
+.msg-wrap ul li .msgContainer .msgTitle{
+	padding: 0 0.2rem;
+	height: 1.2rem;
+	border-bottom:0.01rem solid #e6e6e6;
+}
+.msg-wrap ul li .msgContainer .msgTitle h4{
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.25rem;
+}
+.msg-wrap ul li .msgContainer .msgTitle p{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.2rem;
+	color: #666666;
+}
+.msg-wrap ul li .msgContainer .showDetail {
+	position: relative;
+	padding: 0 0.2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.msg-wrap ul li .msgContainer .showDetail a{
+	display: block;
+    color: #666666;
+	text-decoration: none;
+	font-size: 0.22rem;
+}
+.msg-wrap ul li .noRead{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5%;
+	overflow: hidden;
+}
+
+/* 消息详情代码 */
+#msgDetail{
+	width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 0.3rem;
+}
+#msgDetail .msgDetail{
+	padding: 0 0.2rem;
+}
+#msgDetail .msgDetail h4{
+	margin-top: 0.2rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.3rem;
+}
+#msgDetail .msgDetail p{
+	line-height: 0.5rem;
+	color: #666666;
+	font-size: 0.25rem;
+}
+
+/* challengeScore.html---挑战成绩页面样式代码 */
+.challengeScore-wrap .challengeScore ul li{
+	margin-top: 0.2rem;
+	height: 1rem;
+	padding: 0.1rem;
+	background-color: #fff;
+}
+.challengeScore-wrap .challengeScore ul li div{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.challengeScore-wrap .challengeScore ul li .challengeLeft{
+	width: 20%;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	max-width: 100%;
+    max-height: 100%;
+}
+.challengeScore-wrap .challengeScore ul li .challengeLeft img{
+	width: 0.8rem;
+	height: 0.8rem;
+	max-width: 100%;
+    max-height: 100%;
+	vertical-align: middle;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+  	-webkit-border-radius: 50%;
+	border:0.05rem solid #D9ECFF;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter1{
+	width: 32%;
+	height: 1rem;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter1 h5{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	color: #202020;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter1 p{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+	color: #666;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter2{
+	width: 32%;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter2 span{
+	display: inline-block;
+	width: 25%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.25rem;
+	color: #202020;
+}
+.challengeScore-wrap .challengeScore ul li .challengeCenter2 img{
+	vertical-align: middle;
+	width: 50%;
+}
+.challengeScore-wrap .challengeScore ul li .challengeRight{
+	width: 16%;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+}
+.challengeScore-wrap .challengeScore ul li .challengeRight span{
+	display: inline-block;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #4cdc5b;
+    font-size: 0.25rem;
+}
+.challengeScore-wrap .upChallenge,.myScore-wrap .upChallenge{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0.3rem;
+}
+.challengeScore-wrap .upChallenge span,.myScore-wrap .upChallenge span{
+	display: inline-block;
+	width: 95%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+  	-webkit-border-radius: 0.08rem;
+	background: -webkit-linear-gradient(left, #6093FF , #8C89FF); 
+    background: -o-linear-gradient(right, #6093FF, #8C89FF); 
+    background: -moz-linear-gradient(right, #6093FF, #8C89FF); 
+    background: linear-gradient(to right, #6093FF , #8C89FF);
+}
+/* myscore.html---我的成绩页面样式代码 */
+.myScore-wrap .myScore ul li{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background-color: #fff;
+	font-size: 0.25rem;
+	color: #212121;
+	border-bottom: 0.1rem solid #F0F0F0;
+}
+.myScore-wrap .myScore ul li:nth-child(1){
+	margin-top: 0.2rem;
+	color: #5b93ff;
+	font-size: 0.3rem;
+}
+.myScore-wrap .myScore ul li.even{
+	background-color: #f9f9f9;
+}
+.myScore-wrap .myScore ul li div{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	text-align: center;
+}
+.myScore-wrap .myScore ul li div:nth-child(1){
+	width: 40%;
+	padding-left: 0.15rem;
+	text-align: left;
+}
+.myScore-wrap .myScore ul li div:nth-child(2){
+	width: 20%;
+}
+.myScore-wrap .myScore ul li div:nth-child(3){
+	width: 20%;
+}
+.myScore-wrap .myScore ul li div:nth-child(4){
+	width: 20%;
+}
+.myScore-wrap .join-again-tip {
+ 	width: 4rem;
+	height: 3rem;
+	background-color: #FFF;
+	border: 1px solid #e6e6e6;
+	-moz-border-radius: 0.0341rem;
+	-webkit-border-radius: 0.0341rem;
+	border-radius: 0.0341rem;
+	color: #333;
+	-moz-box-shadow: 0.0341rem 0.0341rem 0.0341rem rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0.0341rem 0.0341rem 0.0341rem rgba(0, 0, 0, 0.5);
+	box-shadow: 0.0341rem 0.0341rem 0.0341rem rgba(0, 0, 0, 0.5);
+}
+.myScore-wrap .join-again-tip .tip-content {
+   padding: 0.4rem 0;
+}
+.myScore-wrap .join-again-tip .tip-content img {
+ 	width: 0.751rem;
+}
+.myScore-wrap .join-again-tip .tip-content .join-again {
+	height: 0.751rem;
+	line-height: 0.751rem;
+}
+.myScore-wrap .join-again-tip .tip-footer {
+	border-top: 1px solid #e6e6e6;
+	height: 1rem;
+	line-height: 1rem;
+}
+/* myChallenge.html---我的挑战页面样式代码 */
+.mychallenge-wrap .mychallenge ul li{
+	margin:0 auto;
+	margin-top: 0.2rem;
+	width: 90%;
+	height: 1.6rem;
+	padding: 0.1rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+  	-webkit-border-radius: 0.08rem;
+
+}
+.mychallenge-wrap .mychallenge ul li div{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.mychallenge-wrap .mychallenge ul li .listLeft{
+	width: 25%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	text-align: center;
+	max-width: 100%;
+    max-height: 100%;
+}
+.mychallenge-wrap .mychallenge ul li .listLeft img{
+	vertical-align: middle;
+	width: 1.4rem;
+	height: 1.4rem;
+	max-width: 100%;
+    max-height: 100%;
+}
+.mychallenge-wrap .mychallenge ul li .listCenter{
+	width: 60%;
+	height: 1.6rem;
+}
+.mychallenge-wrap .mychallenge ul li .listCenter h5{
+	font-size: 0.25rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-indent: 0.1rem;
+}
+.mychallenge-wrap .mychallenge ul li .listCenter p{
+	color: #666666;
+	font-size: 0.2rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-indent: 0.1rem;
+	max-width: 100%;
+    max-height: 100%;
+}
+.mychallenge-wrap .mychallenge ul li .listCenter p img{
+	margin: 0 0.15rem;
+	vertical-align: middle;
+	width: 0.7rem;
+	max-width: 100%;
+    max-height: 100%;
+}
+.mychallenge-wrap .mychallenge ul li .listRight{
+	width: 15%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	max-width: 100%;
+    max-height: 100%;
+}
+.mychallenge-wrap .mychallenge ul li .listRight img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 100%;
+    max-height: 100%;
+}
+
+/* myranklist.html---我的排行样式代码 */
+.my-ranks .act-choose-bar {
+	padding: 0.9rem;
+	background-color: #FFF;
+}
+.my-ranks .act-choose-bar .bar-wrap {
+	width: 100%;
+  	border-bottom: 1px solid #f1f1f1;
+}
+.my-ranks .act-choose-bar .bar-wrap .tab-item {
+	position: relative;
+	width: 50%;
+	margin: 0.1rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #666;
+	text-align: center;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	font-size: 0.25rem;
+}
+.my-ranks .act-choose-bar .bar-wrap .tab-item:last-child{
+	border-left: 2px solid #d9d9d9;
+}
+.my-ranks .act-choose-bar .bar-wrap .tab-item img{
+	width: 6%;
+	margin-left:0.1rem;
+	vertical-align: middle;
+}
+.my-ranks .act-choose-bar .bar-wrap .tab-item-on {
+  	color: #5b93ff;
+}
+.my-ranks .img-wrap{
+	width: 100%;
+}
+.my-ranks .img-wrap img{
+	width: 100%;
+	height: 3rem;
+}
+.my-ranks .act-choose-bar{
+	padding: 0 !important;
+}
+.my-ranks .myRank{
+	background-color: #fff;
+}
+.my-ranks .rank-list-wrapper ul li{
+	height: 0.8rem;
+	padding: 0.1rem;
+	overflow: hidden;
+}
+.my-ranks .rank-list-wrapper ul li div{
+	overflow: hidden;
+}
+.my-ranks .rank-item{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.my-ranks .listLeft{
+	width: 10%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #212121;
+	font-size: 0.25rem;
+}
+.my-ranks .listCenter{
+	width: 75%;
+	height: 0.8rem;
+	text-align: center;
+}
+.my-ranks .listCenter .headImg{
+	float: left;
+	width: 0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.my-ranks .listCenter .headImg img{
+	width: 75%;
+	height: 75%;
+	vertical-align: middle;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+  	-webkit-border-radius: 50%;
+	border:0.05rem solid #D9ECFF;
+}
+.my-ranks .listCenter .rankDetail{
+	margin-left: 0.8rem;
+	width: 80%;
+}
+.my-ranks .listCenter .rankDetail h6,.my-ranks .listCenter .rankDetail p{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: left;
+}
+.my-ranks .listCenter .rankDetail h6{
+	color: #202020;
+	font-size: 0.23rem !important;
+}
+.my-ranks .listCenter .rankDetail p{
+	color: #666666;
+	font-size: 0.2rem !important;
+}
+.my-ranks .listCenter .rankDetail p span:nth-child(2){
+	margin-left:0.1rem;
+	color: #ff7e7f !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.my-ranks .listRight{
+	width: 15%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.2rem;
+}
+.my-ranks .listRight span{
+	font-size: 0.25rem;
+}
+.my-ranks .rank-list-wrapper .rank-list li:nth-child(1){
+    margin-top: 0.2rem;
+    border-top: 1px solid #d9d9d9;
+}
+.my-ranks .rank-list-wrapper .rank-list li{
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+.my-ranks .act-select .choose-wrap{
+	height: 5rem !important;
+	overflow: scroll;
+}
+.my-ranks .choose-wrap .choose-item{
+	border-top: 1px solid #e6e6e6 !important;
+}
+.my-ranks .noRank {
+	position: fixed;
+	width: 4rem;
+	height: 1rem;
+	line-height: 1rem;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #3f1c1c;
+	text-align: center;
+}
